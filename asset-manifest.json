@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/startFramework/static/css/main.58003aff.css",
+    "main.js": "/startFramework/static/js/main.e46300fe.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/startFramework/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/startFramework/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/startFramework/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/startFramework/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/startFramework/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/port1.png": "/startFramework/static/media/port1.4417330275f78faa31c3.png",
+    "static/media/port3.png": "/startFramework/static/media/port3.494a4a914b5471b41f3e.png",
+    "static/media/port2.png": "/startFramework/static/media/port2.6554473016d32b343f02.png",
+    "static/media/avataaars.svg": "/startFramework/static/media/avataaars.0f323cfd395f03a2790f6c0b929ea787.svg",
+    "index.html": "/startFramework/index.html",
+    "main.58003aff.css.map": "/startFramework/static/css/main.58003aff.css.map",
+    "main.e46300fe.js.map": "/startFramework/static/js/main.e46300fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58003aff.css",
+    "static/js/main.e46300fe.js"
+  ]
+}
