@@ -19,7 +19,7 @@ export default function Portfolio() {
   return (
     <>
       <div onClick={hide} className={display}>
-        <img src={layerImg} className="w-50"></img>
+        <img src={layerImg} className="w-50" alt="img"></img>
       </div>
 
       <div className="portfolio">

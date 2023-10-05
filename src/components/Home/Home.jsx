@@ -4,7 +4,7 @@ import img from "./avataaars.svg";
 export default function Home() {
   return (
     <div className="home">
-      <img src={img} />
+      <img src={img} alt="img"/>
       <h1>START FRAMEWORK</h1>
       <div className="d-flex w-25 justify-content-center align-items-center">
         <div className="bar"></div>

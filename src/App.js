@@ -7,20 +7,21 @@ import Layout from "./Layout/Layout.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
-  const router = createBrowserRouter([
+  const routs = createBrowserRouter([
     {
-      path: "/",
+      path: "",
       element: <Layout />,
       children: [
-        { index:true, element: <Home /> },
-        {path:"/home", element: <Home /> },
-        { path: "/about", element: <About /> },
-        { path: "/portfolio", element: <Portfolio /> },
-        { path: "/contact", element: <Contact /> },
+        { index: true, element: <Home />, errorElement: <Home /> },
+        { path: "/home", element: <Home />, errorElement: <Home /> },
+        { path: "/about", element: <About />, errorElement: <Home /> },
+        { path: "/portfolio", element: <Portfolio />, errorElement: <Home /> },
+        { path: "/contact", element: <Contact />, errorElement: <Home /> },
+        { path: "*", element: <Home /> },
       ],
     },
   ]);
-  return <RouterProvider router={router}></RouterProvider>;
+  return <RouterProvider router={routs}></RouterProvider>;
 }
 
 export default App;
